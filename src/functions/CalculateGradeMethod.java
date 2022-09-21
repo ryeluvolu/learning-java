@@ -2,9 +2,9 @@ package functions;
 
 import java.util.Scanner;
 
-public class CalcuateGradeMethod {
+public class CalculateGradeMethod {
 
-	
+	// Line number 8 to 32 is called method definition for method name calculateGrade() 
 	public static void calculateGrade() {
 		Scanner input = new Scanner(System.in);
 		int marks[] = new int[6];
@@ -30,14 +30,17 @@ public class CalcuateGradeMethod {
 			System.out.println("D");
 		}
 	}
+	
 	public static void main(String[] args) {
 		
 		System.out.println("Enter marks for student1");
 		
+		//Calling method
 		calculateGrade();
 		
 		System.out.println("Enter marks for student2");
 		
+		//Calling method
 		calculateGrade();
 
 	}
