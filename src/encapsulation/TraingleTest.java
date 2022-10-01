@@ -4,7 +4,6 @@ public class TraingleTest {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Triangle.numberOfSides());
 		Triangle traingleA = new Triangle(4,5);
 		Triangle traingleB = new Triangle(6,4);
 		
